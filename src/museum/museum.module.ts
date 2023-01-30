@@ -4,6 +4,6 @@ import { MuseumService } from './museum.service';
 
 @Module({
   controllers: [MuseumController],
-  providers: [MuseumService]
+  providers: [MuseumService],
 })
 export class MuseumModule {}
