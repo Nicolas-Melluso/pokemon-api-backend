@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import {
   Controller,
   Get,
@@ -112,3 +113,9 @@ export class UserController {
     });
   }
 }
+=======
+import { Controller } from '@nestjs/common';
+
+@Controller('user')
+export class UserController {}
+>>>>>>> 00e5a072ab8ac7c2fd292546dd640cdce5731eb0
