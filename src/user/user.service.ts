@@ -1,9 +1,9 @@
 import { Injectable } from '@nestjs/common';
-<<<<<<< HEAD
 import { Model } from 'mongoose';
 import { InjectModel } from '@nestjs/mongoose';
 import { CreateUserDTO } from './dto/user.dto';
 import { User, UserDocument } from './model/user.model';
+
 @Injectable()
 export class UserService {
   constructor(@InjectModel(User.name) private userModel: Model<UserDocument>) {}
@@ -40,8 +40,3 @@ export class UserService {
     return deleteUser;
   }
 }
-=======
-
-@Injectable()
-export class UserService {}
->>>>>>> 00e5a072ab8ac7c2fd292546dd640cdce5731eb0
