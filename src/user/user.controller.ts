@@ -112,3 +112,6 @@ export class UserController {
     });
   }
 }
+
+export class UserController {}
+
